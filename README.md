@@ -49,6 +49,7 @@ itzdineshx-gold-price-prediction/
 
 
 
+
 ## **Introduction**  
 Gold prices are highly volatile and influenced by numerous economic factors. Accurate price prediction can assist investors and traders in making informed decisions. This project applies various machine learning and time-series models to predict gold prices using historical data.
 
