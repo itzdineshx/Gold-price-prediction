@@ -8,6 +8,7 @@ This project focuses on predicting gold prices in INR using machine learning and
 
 ## **Table of Contents**
 - [Introduction](#introduction)
+- [Directory Structure](#directory-structure)
 - [Dataset](#dataset)
 - [Features](#features)
 - [Installation](#installation)
@@ -20,8 +21,14 @@ This project focuses on predicting gold prices in INR using machine learning and
 - [License](#license)
 
 ---
-## **Directory Structure**
 
+## **Introduction**  
+Gold prices are highly volatile and influenced by numerous economic factors. Accurate price prediction can assist investors and traders in making informed decisions. This project applies various machine learning and time-series models to predict gold prices using historical data.
+
+---
+
+## **Directory Structure**
+```plaintext
 itzdineshx-gold-price-prediction/
 ├── README.md                # Project documentation
 ├── requirements.txt          # List of dependencies for the project
@@ -46,12 +53,7 @@ itzdineshx-gold-price-prediction/
 │       └── certificate.pem   # Security certificate for Gradio app (if any)
 └── .gradio/                  # Gradio configuration directory
     └── certificate.pem       # SSL certificate for secure communication
-
-
-
-
-## **Introduction**  
-Gold prices are highly volatile and influenced by numerous economic factors. Accurate price prediction can assist investors and traders in making informed decisions. This project applies various machine learning and time-series models to predict gold prices using historical data.
+```
 
 ---
 
@@ -124,7 +126,6 @@ Key evaluation metrics used:
 | Best Ridge Regression    | 77,648.52     | 278.65         | 0.717         |
 | Random Forest            | 81,500.74     | 285.48         | 0.703         |
 
-
 ![model predictions](assets/img/plots/model_pred.png)
 
 ---
@@ -152,7 +153,5 @@ Contributions are welcome!
 ## **License**
 This project is licensed under the [MIT License](LICENSE).
 
-
 ![End Cover](assets/img/end_cover.jpeg)
 
----
