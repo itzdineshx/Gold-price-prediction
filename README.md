@@ -4,6 +4,7 @@
 
 This project focuses on predicting gold prices in INR using machine learning and time-series forecasting models. The objective is to develop a robust model for forecasting gold prices based on historical trends and economic factors.
 
+#**Try App:** [App Link](https://huggingface.co/spaces/DINESH-X/gold-price-predictor-INR)
 ---
 
 ## **Table of Contents**
@@ -136,8 +137,10 @@ The application includes a simple and interactive **Gradio** interface that allo
 - Visualize predicted gold prices  
 - Compare predicted values with historical trends  
 
+#**Try App:** [App Link](https://huggingface.co/spaces/DINESH-X/gold-price-predictor-INR)
+
 **Demo Screenshot:**  
-![App Screenshot](assets/img/app.png)
+![App Screenshot](assets/img/gold_app.png)
 
 ---
 
