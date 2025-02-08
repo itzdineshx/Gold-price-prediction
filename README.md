@@ -20,32 +20,33 @@ This project focuses on predicting gold prices in INR using machine learning and
 - [License](#license)
 
 ---
+## **Directory Structure**
 
-#**Structure**
-└── itzdineshx-gold-price-prediction/
-    ├── README.md
-    ├── requirements.txt
-    ├── assets/
-    │   └── img/
-    │       └── plots/
-    ├── data/
-    │   ├── Gold vs USDINR.csv
-    │   └── USDINR.csv
-    ├── models/
-    │   ├── Regression_model.pkl
-    │   ├── best_lin_reg_ridge_model.pkl
-    │   ├── best_random_forest_model.pkl
-    │   ├── regressor.pkl
-    │   ├── ridge_model.pkl
-    │   └── scaler.pkl
-    ├── notebook/
-    │   └── Gold_price_usdinr_prediction.ipynb
-    ├── src/
-    │   ├── app.py
-    │   └── .gradio/
-    │       └── certificate.pem
-    └── .gradio/
-        └── certificate.pem
+itzdineshx-gold-price-prediction/
+├── README.md                # Project documentation
+├── requirements.txt          # List of dependencies for the project
+├── assets/                   # Folder for storing project-related images and plots
+│   └── img/
+│       └── plots/            # Directory for plots generated during the analysis
+├── data/                     # Folder for dataset files
+│   ├── Gold vs USDINR.csv    # Gold price dataset file
+│   └── USDINR.csv            # USD/INR exchange rate dataset file
+├── models/                   # Folder for storing trained model files
+│   ├── Regression_model.pkl  # Saved linear regression model
+│   ├── best_lin_reg_ridge_model.pkl  # Best Ridge regression model
+│   ├── best_random_forest_model.pkl  # Best Random Forest model
+│   ├── regressor.pkl         # Additional regressor model
+│   ├── ridge_model.pkl       # Ridge regression model
+│   └── scaler.pkl            # Feature scaler object
+├── notebook/                 # Jupyter Notebook directory
+│   └── Gold_price_usdinr_prediction.ipynb  # Main project notebook
+├── src/                      # Source code directory
+│   ├── app.py                # Gradio app for interactive predictions
+│   └── .gradio/
+│       └── certificate.pem   # Security certificate for Gradio app (if any)
+└── .gradio/                  # Gradio configuration directory
+    └── certificate.pem       # SSL certificate for secure communication
+
 
 
 ## **Introduction**  
