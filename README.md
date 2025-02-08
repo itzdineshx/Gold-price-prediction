@@ -1,6 +1,6 @@
 # **Gold Price Prediction Using Machine Learning** 🏆
 
-![Cover](/workspaces/Gold-price-prediction/assets/img/cover.jpeg)
+![Cover](assets/img/cover.jpeg)
 
 This project focuses on predicting gold prices in INR using machine learning and time-series forecasting models. The objective is to develop a robust model for forecasting gold prices based on historical trends and economic factors.
 
@@ -20,6 +20,33 @@ This project focuses on predicting gold prices in INR using machine learning and
 - [License](#license)
 
 ---
+
+#**Structure**
+└── itzdineshx-gold-price-prediction/
+    ├── README.md
+    ├── requirements.txt
+    ├── assets/
+    │   └── img/
+    │       └── plots/
+    ├── data/
+    │   ├── Gold vs USDINR.csv
+    │   └── USDINR.csv
+    ├── models/
+    │   ├── Regression_model.pkl
+    │   ├── best_lin_reg_ridge_model.pkl
+    │   ├── best_random_forest_model.pkl
+    │   ├── regressor.pkl
+    │   ├── ridge_model.pkl
+    │   └── scaler.pkl
+    ├── notebook/
+    │   └── Gold_price_usdinr_prediction.ipynb
+    ├── src/
+    │   ├── app.py
+    │   └── .gradio/
+    │       └── certificate.pem
+    └── .gradio/
+        └── certificate.pem
+
 
 ## **Introduction**  
 Gold prices are highly volatile and influenced by numerous economic factors. Accurate price prediction can assist investors and traders in making informed decisions. This project applies various machine learning and time-series models to predict gold prices using historical data.
@@ -96,7 +123,7 @@ Key evaluation metrics used:
 | Random Forest            | 81,500.74     | 285.48         | 0.703         |
 
 
-![model predictions](/workspaces/Gold-price-prediction/assets/img/plots/model_pred.png)
+![model predictions](assets/img/plots/model_pred.png)
 
 ---
 
@@ -107,7 +134,7 @@ The application includes a simple and interactive **Gradio** interface that allo
 - Compare predicted values with historical trends  
 
 **Demo Screenshot:**  
-![App Screenshot](/workspaces/Gold-price-prediction/assets/img/app.png)
+![App Screenshot](assets/img/app.png)
 
 ---
 
@@ -124,6 +151,6 @@ Contributions are welcome!
 This project is licensed under the [MIT License](LICENSE).
 
 
-![End Cover](/workspaces/Gold-price-prediction/assets/img/end_cover.jpeg)
+![End Cover](assets/img/end_cover.jpeg)
 
 ---
