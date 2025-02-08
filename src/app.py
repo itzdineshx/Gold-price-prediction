@@ -10,8 +10,8 @@ def predict_gold_rate(usd_inr_value):
     """
     try:
         # Load the pre-trained scaler and model
-        scaler = joblib.load('/workspaces/Gold-price-prediction/models/scaler.pkl')
-        model = joblib.load('/workspaces/Gold-price-prediction/models/Regression_model.pkl')
+        scaler = joblib.load('models/scaler.pkl')
+        model = joblib.load('models/Regression_model.pkl')
 
         # Reshape the input for prediction
         usd_inr_scaled = scaler.transform(np.array([[usd_inr_value]]))
